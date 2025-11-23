@@ -1,0 +1,15 @@
+[project]
+name = "bot-perf-test"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "ibm-watsonx-ai>=1.4.7",
+    "locust>=2.42.3",
+    "locust-plugins>=5.0.0",
+    "notebook>=7.5.0",
+    "playwright>=1.56.0",
+    "requests-html>=0.10.0",
+    "selenium>=4.38.0",
+]
